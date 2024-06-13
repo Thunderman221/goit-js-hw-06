@@ -22,6 +22,7 @@ class StringBuilder {
     this.padEnd(str);
   }
 }
+
 const builder = new StringBuilder(".");
 
 console.log(builder.getValue()); // "."
